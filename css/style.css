@@ -45,3 +45,9 @@ body{
     }
 }
 
+.error-count{
+    font-weight:400;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
