@@ -34,6 +34,12 @@ body{
         box-shadow: 0px 12px 24px 0px rgba(21, 27, 77, 0.2);
     
     }
+    .error-count{
+        font-weight:400;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
 }
 
 @media screen and (max-width:1199px){
@@ -43,11 +49,10 @@ body{
         left: 38vw;
         z-index: 999;
     }
-}
-
-.error-count{
-    font-weight:400;
-    position: absolute;
-    top: 16px;
-    right: 16px;
+    .error-count{
+        font-weight:400;
+        position: absolute;
+        top: 5px;
+        left: -10px;
+    }
 }

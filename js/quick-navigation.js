@@ -87,7 +87,7 @@ else {
   </div>`
     $('#main').prepend(quickNavHtml);
     quickNav.forEach((item) => {
-        $('#quick-navigation .dropdown-menu').append(`<li><a class="dropdown-item" href="#${item.href}">${item.name}</a></li>`);
+        $('#quick-navigation .dropdown-menu').append(`<li id=${item.id} class="position-relative"><a class="dropdown-item" href="#${item.href}">${item.name}</a></li>`);
     });
 }
 
