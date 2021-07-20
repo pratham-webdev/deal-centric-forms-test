@@ -61,7 +61,7 @@ let quickNav = [
     },
     {
         id: 'q-13',
-        name: 'Dealer & Customer Info',
+        name: 'Deal Summary',
         href: 'd-1'
     },
 ]
